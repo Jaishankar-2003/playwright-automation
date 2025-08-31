@@ -15,4 +15,4 @@ any
 union type
 void
 
-non-premitive store 2 value 
+non-premitive store 2 value -
