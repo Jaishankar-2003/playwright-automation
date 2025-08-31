@@ -1,0 +1,18 @@
+Type/ Data type  -------> number
+Annotations -------> : numbers (let age : number = 30)
+
+Type inference 
+-----------------
+let age = 30;  Automatically assing the datatype based on data type 
+
+-----------------------------------------------------------------------------------
+
+premitive (appart from java )   premitive store 1 value
+----------
+null
+undefined
+any
+union type
+void
+
+non-premitive store 2 value 
