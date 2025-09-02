@@ -3,7 +3,7 @@ Annotations -------> : numbers (let age : number = 30)
 
 Type inference 
 -----------------
-let age = 30;  Automatically assing the datatype based on data type 
+let age = 30;  Automatically assing the datatype based on data type  [ it is inferrence ]
 
 -----------------------------------------------------------------------------------
 
@@ -48,9 +48,28 @@ value = 100; // here as per typescript we got error but we cant because of (Any 
 
 let id:number | string | boolean;
 
-7 void -----> it used in function not return anything
 
-  function sum():void
+7 void -----> it used in function not return anything  [ it is optional ]
+
+  function sum():void   ------>  function not return any thing
   {
 
   }
+  function sum():number ------->  in these it return number 
+
+
+
+8 function show():void ---------> these function is not return anything [ it is optional ]
+{
+    console.log("welcome")
+}
+show(); 
+
+function sum(x:number , y:number):number ----> it return 
+{
+    return(x+y)
+}
+let res:number=sum(10,20); -----> return value and store in var
+console.log(res)
+
+===============================================================================================
