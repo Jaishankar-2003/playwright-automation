@@ -15,4 +15,16 @@ any
 union type
 void
 
-non-premitive store 2 value -
+non-premitive Data store 2 value - store multiple values (objects)
+-------------------------------
+
+array , class , function , interface , Touple 
+
+
+1 number Type ----> store both integer and float values
+
+2 string ----> represent in 3 ways
+   1 . singleQuote (' ')
+   2 . DoubleQuote (" ")
+   3 . backtick (` `) -------> to store the data in the string 
+
