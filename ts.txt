@@ -22,6 +22,8 @@ array , class , function , interface , Touple
 
 ==========================================================================================
 
+Data types premitive;
+
 1 number Type ----> store both integer and float values
 
 2 string ----> represent in 3 ways
