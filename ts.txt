@@ -20,11 +20,37 @@ non-premitive Data store 2 value - store multiple values (objects)
 
 array , class , function , interface , Touple 
 
+==========================================================================================
 
 1 number Type ----> store both integer and float values
 
 2 string ----> represent in 3 ways
    1 . singleQuote (' ')
    2 . DoubleQuote (" ")
-   3 . backtick (` `) -------> to store the data in the string 
+   3 . backtick (` `) -------> to store the data in the string  ex [ greet:string = `hello ${helo}${last}` ]
 
+3 boolean ----> stu:boolean=true;
+
+4 null & undefined -------> special type oof absence of value   ( no value for the variable)
+
+    empty:null=null;  ---------> null
+
+    not assign:undefined = undefine; 
+
+
+5 Any -----> it violate the rule of type safety [ loses typescript benefit ]
+
+let value:any="welcome";
+value = 100; // here as per typescript we got error but we cant because of (Any type)
+
+
+6 union type ------> combine multiple types 
+
+let id:number | string | boolean;
+
+7 void -----> it used in function not return anything
+
+  function sum():void
+  {
+
+  }
