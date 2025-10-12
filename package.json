@@ -10,6 +10,15 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^5.9.2"
-  }
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaishankar-2003/playwright-automation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Jaishankar-2003/playwright-automation/issues"
+  },
+  "homepage": "https://github.com/Jaishankar-2003/playwright-automation#readme"
 }
