@@ -81,3 +81,22 @@ switch(day)
     default: console.log("Invalid day");
 
 }   
+
+// ex 4 
+
+console.log("-------ex 4--------");
+
+let x:number = 20 , y:number = 5;
+
+switch(x-y)
+{
+    case 0 : console.log("result is zero");
+    break;
+    
+    case 5 : console.log("result is five");
+    break;
+
+    case 15 : console.log("result is fifteen");
+    break;
+    default : console.log("result is not matching");
+}
