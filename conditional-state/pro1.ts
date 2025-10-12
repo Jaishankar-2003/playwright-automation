@@ -23,11 +23,20 @@ else
 let word:string = "HELLO"
 if(word === "hello")
 {
-    console.log("word in lower case");
+    console.log("word in lower case"); 
+}
+
+
+// check positive num or negative num 
+
+let number : number = -5;
+if(number >= 0)
+{
+    console.log("given num is positive");
 }
 else 
 {
-    console.log("word is not in lower case");
+    console.log("given num is negative");
 }
 
 
