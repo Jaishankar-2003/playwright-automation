@@ -17,3 +17,20 @@ else
 {
     console.log("Not Eligible for vote");
 }
+
+
+// example 2
+
+console.log("-----ex 2 ------")
+
+let num : number = 11
+if(num % 2)
+{
+
+    console.log(`${num} given num is even :`);
+}
+else
+{
+    console.log("given num is odd");
+
+}
