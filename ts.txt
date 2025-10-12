@@ -33,7 +33,7 @@ Data types premitive;
 
 3 boolean ----> stu:boolean=true;
 
-4 null & undefined -------> special type oof absence of value   ( no value for the variable)
+4 null & undefined -------> special type of absence of value   ( no value for the variable)
 
     empty:null=null;  ---------> null
 
@@ -61,7 +61,7 @@ let id:number | string | boolean;
 
 
 
-8 function show():void ---------> these function is not return anything [ it is optional ]
+function show():void ---------> these function is not return anything [ it is optional ]
 {
     console.log("welcome")
 }
