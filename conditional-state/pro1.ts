@@ -19,6 +19,17 @@ else
     console.log("Not Eligible for vote");
 }
 
+// CHECK upper case or lower case
+let word:string = "HELLO"
+if(word === "hello")
+{
+    console.log("word in lower case");
+}
+else 
+{
+    console.log("word is not in lower case");
+}
+
 
 // example 2
 
