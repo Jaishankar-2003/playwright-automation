@@ -35,6 +35,6 @@ function temp()
     console.log("After Swapping");
     console.log(a);
     console.log(b);
-    temp();
-}
 
+}
+//temp();
