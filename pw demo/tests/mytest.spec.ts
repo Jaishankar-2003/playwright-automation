@@ -9,15 +9,15 @@ import { test ,expect } from '@playwright/test';
 
 // fixture - global variable : page, browser ,context
 
-test("verify page title",({page})=>
+test("verify page title",async ({page})=>
 {
-    page.goto("https://www.webpagetest.org/"); 
+    await page.goto("https://www.webpagetest.org/"); 
 
-    let title : string = page.title();
+    let title : string = await page.title();
     console.log("Title :",title);
 
 
-    expect(page).toHaveTitle("catchpoint.");
+    await expect(page).toHaveTitle("catchpoint.");
     
 })
 
