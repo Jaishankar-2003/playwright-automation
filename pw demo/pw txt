@@ -31,3 +31,6 @@ asyncrones : it does not depend on any steps if step 1 is start with out complet
 
 Task that run on background its is PROMISE : 58:52
 
+
+npx playwright test it run all test 
+

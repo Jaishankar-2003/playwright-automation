@@ -1,24 +1,13 @@
 {
   "name": "playwright-automation",
   "version": "1.0.0",
+  "private": true,
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx playwright test"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "ts-node": "^10.9.2",
-    "typescript": "^5.9.3"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Jaishankar-2003/playwright-automation.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Jaishankar-2003/playwright-automation/issues"
-  },
-  "homepage": "https://github.com/Jaishankar-2003/playwright-automation#readme"
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.3"
+  }
 }
