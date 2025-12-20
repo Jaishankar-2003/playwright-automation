@@ -16,8 +16,12 @@ test("verify page title",async ({page})=>
     let title : string = await page.title();
     console.log("Title :",title);
 
+    let url:String = page.url();
+    console.log("URL :",url);
 
     await expect(page).toHaveTitle("WebPageTest | Open-Source Web Performance Optimization");
+    await expect(page).toHaveURL("https://www.webpagetest.org/");
+
     
 })
 
