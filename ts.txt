@@ -93,6 +93,17 @@ console.log(res)
   npx playwright codegen
     Auto generate tests with Codegen.
 
+     HOST=0.0.0.0 npm run dev
+
+
+    npx playwright test it run all test 
+
+npx playwright test example --project=chromium  //specific in spicific browser 
+
+npx playwright test example example  //run multiple files
+
+npx playwright test -g "verify" // run based on test title
+
 We suggest that you begin by typing:
 
     npx playwright test
@@ -116,4 +127,24 @@ npx playwright test example example  //run multiple files
 
 npx playwright test -g "verify" // run based on test title
 
+--------------------------------------------------------------------------------------------------
+
+Locator - work based on dom(document object model) structure 
+=======
+
+page.getByRole() to locate by explicit and implicit accessibility attributes.
+
+page.getByText() to locate by text content.
+
+page.getByLabel() to locate a form control by associated label's text.
+
+page.getByPlaceholder() to locate an input by placeholder.
+
+page.getByAltText() to locate an element, usually image, by its text alternative.
+
+page.getByTitle() to locate an element by its title attribute.
+
+page.getByTestId() to locate an element based on its data-testid attribute (other attributes can be configured).
+
+------------------------------------------------------------------------------------------------------------
 
