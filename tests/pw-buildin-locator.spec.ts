@@ -34,7 +34,7 @@ await expect(logo).toBeVisible();
 // intractive ele button a input use role locator
 
 
-await expect(page.getByText('Welcome to our store')).toBeVisible();;
+await expect(page.getByText('Welcome to our store')).toBeVisible(); // it work even it is full string ,substring , regular expression also  case sensitive
 
 
 
