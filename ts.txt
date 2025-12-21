@@ -76,3 +76,44 @@ console.log(res)
 
 ===============================================================================================
 
+
+  npx playwright test
+    Runs the end-to-end tests.
+
+  npx playwright test --ui //Starts the interactive UI mode.
+
+  npx playwright test --project=chromium
+    Runs the tests only on Desktop Chrome.
+
+  npx playwright test example
+    Runs the tests in a specific file.
+
+  npx playwright test --debug //Runs the tests in debug mode.
+
+  npx playwright codegen
+    Auto generate tests with Codegen.
+
+We suggest that you begin by typing:
+
+    npx playwright test
+
+sync & async
+
+syncrones :
+if 1 step executed then 2nd , then 3rd   ex:console.log() await
+
+asyncrones : it does not depend on any steps if step 1 is start with out complete step 1 step 2 will start
+
+
+Task that run on background its is PROMISE : 58:52
+
+
+npx playwright test it run all test 
+
+npx playwright test example --project=chromium  //specific in spicific browser 
+
+npx playwright test example example  //run multiple files
+
+npx playwright test -g "verify" // run based on test title
+
+
