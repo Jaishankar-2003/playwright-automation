@@ -148,3 +148,16 @@ page.getByTestId() to locate an element based on its data-testid attribute (othe
 
 ------------------------------------------------------------------------------------------------------------
 
+xpath :
+
+absolute :  page.locator("xpath =/html[1]/body[1]/div[4]/div[1]/div[1]/div[1]/a[1]/img[1]");
+
+xpath : page.locator("//img[@alt='Tricentis Demo Web Shop']");
+
+contains method : 
+
+count : 
+
+strict mode violation : the matching element should be more then one element 
+
+textcontent()  , allTextContents()
