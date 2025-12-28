@@ -160,4 +160,5 @@ count :
 
 strict mode violation : the matching element should be more then one element 
 
-textcontent()  , allTextContents()
+textcontent() // get single web element 
+allTextContents() // get group of web element 
