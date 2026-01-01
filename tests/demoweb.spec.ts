@@ -32,5 +32,11 @@ console.log("FIrst product : " , await product.first().textContent());
 console.log("last product : " , await product.last().textContent());
 console.log("3 nth  product : " , await product.nth(1).textContent());
 
+// start-with()
+
+const build: Locator = page.locator("//h2/a[starts-with(@href,'/build')]");
+
+console.log("build count :" , await build.count());
+
 
 })
