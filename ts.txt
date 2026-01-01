@@ -170,3 +170,6 @@ text() select element based on exact text content of the element
 last()  //div[@class='column follow-us']/ul//li[last()]
 
 position()
+
+playwright specific locator are fast  compare to xpath and class
+same time compare to css xpath is very slow  
