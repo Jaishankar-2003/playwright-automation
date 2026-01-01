@@ -166,3 +166,7 @@ allTextContents() // get group of web element
 starts-with() //h2/a[starts-with(@href,'/build')]
 
 text() select element based on exact text content of the element 
+
+last()  //div[@class='column follow-us']/ul//li[last()]
+
+position()

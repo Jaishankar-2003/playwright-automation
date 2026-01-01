@@ -39,4 +39,21 @@ const build: Locator = page.locator("//h2/a[starts-with(@href,'/build')]");
 console.log("build count :" , await build.count());
 
 
+// last item 
+
+const lastitem : Locator = page.locator("//div[@class='column follow-us']/ul//li[last()]");
+
+expect(lastitem).toBeVisible();
+
+console.log(lastitem);
+
+console.log("last item" , await lastitem.textContent());
+
+// position()
+
+const position: Locator = page.locator("//div[@class='column follow-us']/ul//li[position()=3]");
+await expect(position).toBeVisible();
+console.log("position : " , await position.textContent());
+
+
 })
