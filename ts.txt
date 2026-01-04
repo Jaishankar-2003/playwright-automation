@@ -173,3 +173,15 @@ position()
 
 playwright specific locator are fast  compare to xpath and class
 same time compare to css xpath is very slow  
+
+
+
+// get the text
+
+.toHaveText()
+
+.toContainText()
+
+toHaveCount()
+
+toHaveAttribute()
