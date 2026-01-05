@@ -185,3 +185,17 @@ same time compare to css xpath is very slow
 toHaveCount()
 
 toHaveAttribute()
+
+.waitfortimeout(2000)
+
+------------------------------------------------------------------------------------------------------------ 
+
+
+1 priority    --- playwright specific locator 
+
+2 priority    css 
+
+3 priority     xpath 
+
+
+------------------------------------------------------------------------------------------------------------ 

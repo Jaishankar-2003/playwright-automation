@@ -40,4 +40,21 @@ const decendent :  Locator = page.locator("//table[@id='customers']/descendant::
 // following  //td[normalize-space()='Germany']/following::td
 
 
+// PRECEDING   (before elements)
+
+const preceding :  Locator = page.locator("//td[text()='Germany']/preceding::td[1]");
+
+await expect(preceding).toHaveText("Maria Anders");
+
+// PRECEDING-sibling  (before elements)
+
+const precedingsibling :  Locator = page.locator("//td[text()='Germany']/preceding-sibling::td[1]");
+
+await expect(precedingsibling).toHaveCount(1);
+
+console.log(await precedingsibling.textContent());
+
+
+
+
 });
