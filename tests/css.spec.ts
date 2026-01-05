@@ -59,7 +59,7 @@ await page.waitForTimeout(2000);
 await page.locator("input[name='q']").fill("teting");
 await page.locator("input[name='q']").clear();
 
-
+await page.waitForTimeout(2000);
 
 
 //tag.class[attribute=value]  
