@@ -188,10 +188,17 @@ toHaveAttribute()
 
 .waitfortimeout(2000)
 
-.to be visible
+.to be visible  // check visiblity
 
-.to be enable
+.to be enable  // check it enable
 
+.ischecked  // it check the button is checked or not
+
+. to be checked()
+
+not.toBeChecked();     not to be checked
+
+.getbyLabel()
 ------------------------------------------------------------------------------------------------------------ 
 
 
