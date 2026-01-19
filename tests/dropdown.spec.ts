@@ -38,7 +38,7 @@ await page.goto("https://testautomationpractice.blogspot.com/")
 
 
 
-    // 3 
+    // 3 check option present in dropdown : 
     const alloption : string[] = (await dropdown.allTextContents()).map(text => text.trim());
 
     console.log(alloption);
