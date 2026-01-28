@@ -213,3 +213,10 @@ not.toBeChecked();     not to be checked
 
 absolute css locator and partial css locator
 
+===============================================================================
+
+static dropdown 
+Dynamic/Auto suggest (drop down keep change dynamic)
+
+hidden dropdown
+
