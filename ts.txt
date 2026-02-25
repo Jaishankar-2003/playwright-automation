@@ -220,3 +220,4 @@ Dynamic/Auto suggest (drop down keep change dynamic)
 
 hidden dropdown
 
+npx playwright codegen https://testautomationpractice.blogspot.com

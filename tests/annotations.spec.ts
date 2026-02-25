@@ -71,3 +71,34 @@ test.describe('Grouped Tests @group', {
     await page.waitForTimeout(2000);
   });
 });
+
+
+test.describe('Chromium Only Group @groupskip', () => {
+
+  test.skip(({ browserName }) => browserName !== 'chromium', 'Chromium only!');
+
+  test('@Test1', async ({ page }) => {
+    await page.goto('https://testautomationpractice.blogspot.com/');
+    await expect(page).toHaveTitle("Automation Testing Practice");
+    console.log("This test runs only in Chromium");
+  });
+
+  test('@Test2', async ({ page }) => {
+    await page.goto('https://testautomationpractice.blogspot.com/');
+    await expect(page).toHaveTitle("Automation Testing Practice");
+    console.log("This test runs only in Chromium");
+  });
+
+});
+
+
+test('Login with known issue', {
+  annotation: {
+    type: 'issue',
+    description: 'BUG-101: Login failing in staging',
+  },
+}, async ({ page }) => {
+
+  await page.goto('https://testautomationpractice.blogspot.com/');
+
+});
